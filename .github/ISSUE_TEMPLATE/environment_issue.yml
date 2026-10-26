@@ -1,0 +1,17 @@
+name: 环境问题
+description: 环境安装、依赖冲突、资源缺失等
+labels: [environment]
+body:
+  - type: textarea
+    id: env
+    attributes:
+      label: 环境信息
+      description: OS / Python / Torch / CUDA / GPU
+  - type: textarea
+    id: error
+    attributes:
+      label: 报错日志
+  - type: textarea
+    id: tried
+    attributes:
+      label: 已尝试操作

@@ -1,0 +1,32 @@
+# virtual envs
+.venv*/
+
+# datasets & licensed assets
+data/
+assets/
+smpl/
+
+# training outputs
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+replays/
+
+# logs/cache
+logs/
+*.log
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# secrets/env
+.env
+.env.local
+*.secret
+
+# keep templates/examples tracked
+!experiments/template.*
+!configs/*.example.env

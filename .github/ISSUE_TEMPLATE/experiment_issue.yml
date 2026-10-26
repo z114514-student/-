@@ -1,0 +1,21 @@
+name: 实验问题
+description: 训练/评测实验记录与异常反馈
+labels: [experiment]
+body:
+  - type: input
+    id: commit
+    attributes:
+      label: 代码提交
+      placeholder: abcdef1
+  - type: textarea
+    id: config
+    attributes:
+      label: 训练与评测配置
+  - type: textarea
+    id: result
+    attributes:
+      label: 结果与现象
+  - type: textarea
+    id: replay
+    attributes:
+      label: 回放位置
