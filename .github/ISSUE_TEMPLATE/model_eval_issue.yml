@@ -1,0 +1,20 @@
+name: 模型评测问题
+description: validate/benchmark/match 相关问题
+labels: [evaluation]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: 模型路径（相对仓库）
+  - type: textarea
+    id: manifest
+    attributes:
+      label: 模型清单摘要
+  - type: textarea
+    id: eval
+    attributes:
+      label: 官方运行验证结果
+  - type: textarea
+    id: note
+    attributes:
+      label: 备注

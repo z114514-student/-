@@ -1,0 +1,1 @@
+experiment_id,date,owner,commit,upstream,data_hash,seed,train_config,checkpoint,onnx,opponent,matches,win,draw,lose,ko_for,ko_against,hardware,latency_ms,replay_path,notes
